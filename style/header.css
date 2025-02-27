@@ -1,0 +1,37 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+    --color-secondary: #FFFFFF;
+    --color-background: #F6F6F6;
+  }
+
+  header {
+    width: 100%;
+    padding: 30px 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header .header-left {
+    display: flex;
+    width: 184px;
+    height: 60px;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  header nav {
+    display: flex;
+    width: 443px;
+    height: 27px;
+    align-items: center;
+    justify-content: space-between;
+  }

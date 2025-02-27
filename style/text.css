@@ -1,0 +1,119 @@
+.logo_subtitle{
+    /* logo_subtitle */
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 10%;
+    text-align: left;
+    }
+    
+    .logo_title{
+      /* logo_title */
+    color: rgb(241, 205, 179);
+    font-family: Georgia;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 6%;
+    text-align: left;
+    }
+    
+    .paragraph{
+      color: rgb(205, 205, 205);
+      font-family: Arial;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 160%;
+      letter-spacing: 0px;
+      text-align: left;
+    }
+    
+    h2{
+      /* h2 */
+    color: rgb(255, 255, 255);
+    font-family: Georgia;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 0%;
+    text-align: left;
+    }
+    
+    .h3-about{
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 6%;
+    text-align: left;
+    }
+    
+    .h3-footer{
+      /* h3 */
+    color: rgb(255, 255, 255);
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 6%;
+    text-align: left;
+    }
+    
+    h4{
+      /* h4 */
+    color: rgb(241, 205, 179);
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 6%;
+    text-align: left;
+    }
+    
+    h5{
+      /* h5 */
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 110%;
+    letter-spacing: 6%;
+    text-align: left;
+    }
+    
+    .text-donat{
+      /* donation-description */
+    color: rgb(178, 178, 178);
+    font-family: Arial;
+    font-style: italic;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0px;
+    text-align: left;
+    }
+    
+    .h3-friends{
+      /* h3 */
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 130%;
+    letter-spacing: 6%;
+    text-align: center;
+    }
+    
+    .h4-list{
+      /* h4 */
+    color: rgb(84, 84, 84);
+    font-family: Georgia;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 115%;
+    letter-spacing: 6%;
+    text-align: center;
+    }

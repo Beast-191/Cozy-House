@@ -1,0 +1,194 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+  --color-secondary: #FFFFFF;
+  --color-background: #F6F6F6;
+}
+
+
+/*-----------------------------*/
+
+
+.friend {
+    height: 100vh;
+    margin: 0 auto; /* Центрирование секций */
+  background: radial-gradient(195.87% 111.80% at 0% 0%,rgb(91, 72, 58),rgb(38, 36, 37) 100%),rgb(33, 31, 32);
+  display: flex;
+  flex-direction: column;
+}
+
+.dog{
+  display: flex;
+  width: 1200px;
+  height: 728px;
+  justify-content: space-between;
+  align-self: center;
+  margin: auto auto 0 auto;
+}
+
+.text-page-1{
+  width: 460px;
+  height: 322px;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.navi:hover{
+  border-bottom: 3px solid rgb(241, 205, 179);
+}
+
+.about {
+    margin: 0 auto; /* Центрирование секций */
+  height: 588px;
+  background-color: var(--color-secondary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box-page-2{
+  display: flex;
+  width: 1200px;
+  height: 408px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.text-page-2{
+  width: 430px;
+  height: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button{
+    width: 207px;
+    height: 52px;
+    background-color: rgb(241, 205, 179);
+    color: rgb(41, 41, 41);
+    border: none;
+    border-radius: 100px;
+  }
+
+/*-----------------------------*/
+
+
+
+.pet {
+    margin: 0 auto; /* Центрирование секций */
+  height: 877px;
+  background-color: var(--color-background);
+  margin: 0 auto; /* Центрирование по горизонтали */
+  display: flex;
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  align-items: center;
+}
+
+.friends-content{
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: 697px;
+  align-items: center;
+  justify-content: center;
+}
+
+.pets{
+  width: 1200px;
+  height: 435px;
+}
+
+.help {
+  height: 611px;
+  background-color: var(--color-secondary);
+  margin: 0 auto; /* Центрирование по горизонтали */
+  display: flex;
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  align-items: center;
+}
+
+.how-content{
+  width: 1200px;
+  height: 431px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.help-shelter {
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0; 
+  gap: 55px 120px;
+
+  @media (max-width: 768px) {
+    gap: 55px 60px;
+  }
+}
+
+@media (max-width: 390px) {
+  .help-shelter {
+    gap: 30px 0;
+    justify-content: space-between;
+  }
+}
+
+.list-css {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (max-width: 768px) {
+    width: 170px;
+  }
+}
+
+/* .list-css{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+} */
+
+.donation {
+  height: 462px;
+  background-color: var(--color-background);
+  margin: 0 auto; /* Центрирование по горизонтали */
+  display: flex;
+  justify-content: center; /* Центрирование содержимого по горизонтали */
+  align-items: center;
+}
+
+.donation-content{
+  width: 915px;
+  height: 282px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 380px;
+  height: 282px;
+}
+
+.credit-card{
+  width: 349px;
+  height: 43px;
+  background-color: #F1CDB3;
+}

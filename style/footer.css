@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+:root {
+    --color-secondary: #FFFFFF;
+    --color-background: #F6F6F6;
+  }
+
+footer {
+    height: 350px;
+    background: radial-gradient(539.00% 73.00% at 6% 50%,rgb(81, 61, 47),rgb(26, 26, 28) 100%),rgb(33, 31, 32);
+    margin: 0 auto; /* Центрирование по горизонтали */
+    display: flex;
+    justify-content: center; /* Центрирование содержимого по горизонтали */
+    align-items: flex-end; /* Прижимаем содержимое к нижнему краю */
+  }
+  
+  .footer{
+    width: 1200px;
+    height: 310px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer .footer-left{
+    width: 278px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .footer .footer-center{
+    width: 302px;
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
