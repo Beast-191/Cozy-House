@@ -7,9 +7,13 @@
   text-decoration: none;
 }
 
-:root {
+:root {   
   --color-secondary: #FFFFFF;
   --color-background: #F6F6F6;
+}
+
+main{
+  background: radial-gradient(195.87% 111.80% at 0% 0%,rgb(91, 72, 58),rgb(38, 36, 37) 100%),rgb(33, 31, 32);
 }
 
 
@@ -17,9 +21,8 @@
 
 
 .friend {
-    height: 100vh;
-    margin: 0 auto; /* Центрирование секций */
-  background: radial-gradient(195.87% 111.80% at 0% 0%,rgb(91, 72, 58),rgb(38, 36, 37) 100%),rgb(33, 31, 32);
+  height: 100vh;
+  background-size: cover;
   display: flex;
   flex-direction: column;
 }
@@ -123,7 +126,6 @@ button{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
 }
 
 .help-shelter {
@@ -132,7 +134,7 @@ button{
   flex-wrap: wrap;
   justify-content: center;
   padding: 0; 
-  gap: 55px 120px;
+  gap: 55px 130px;
 
   @media (max-width: 768px) {
     gap: 55px 60px;
